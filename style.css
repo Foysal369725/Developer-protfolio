@@ -1,0 +1,79 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+.Blue-color{
+    color: rgb(41, 184, 240);
+}
+.flexible-container{
+    display: flex;
+    
+   
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.half-width img{
+    padding-top: 7%;
+    padding-left: 15%;
+    padding-right: 5%;
+    width: 70%;
+    
+}
+.link-button{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(41, 184, 240) , rgb(88, 84, 84));
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.about-her{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right ;
+}
+.blue-shade{
+   color: rgb(44, 161, 207);
+}
+.characteteristic-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+
+}
+.padding-add{
+    padding-left: 5%;
+}
+.characteteristic-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#foysal{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(45, 171, 221),gray );
+    border-image-slice: 1;
+}
+#ankon{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(245, 3, 225),rgb(122, 224, 238) );
+    border-image-slice: 1;
+
+}
